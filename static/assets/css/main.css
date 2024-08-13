@@ -464,6 +464,10 @@ h6 {
   position: relative;
 }
 
+#footer .container div.row {
+  justify-content: space-between;
+}
+
 .footer:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 20%);

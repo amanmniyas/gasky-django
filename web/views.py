@@ -6,23 +6,23 @@ from web.forms import ContactForm
 
 
 def index(request):
-    return render(request, 'web/index.html', {'current_page': 'index'})
+    return render(request, 'web/index.html', {'current_page': 'index', 'title': 'Home'})
 
 
 def about(request):
-    return render(request, 'web/about.html', {'current_page': 'about'})
+    return render(request, 'web/about.html', {'current_page': 'about', 'title': 'About Us'})
 
 
 def services(request):
-    return render(request, 'web/services.html', {'current_page': 'services'})
+    return render(request, 'web/services.html', {'current_page': 'services', 'title': 'Our Services'})
 
 
 def products(request):
-    return render(request, 'web/products.html', {'current_page': 'products'})
+    return render(request, 'web/products.html', {'current_page': 'products', 'title': 'Our Products'})
 
 
 def contact(request):
-    return render(request, 'web/contact.html', {'current_page': 'contact'}) 
+    return render(request, 'web/contact.html', {'current_page': 'contact', 'title': 'Contact Us'})
 
 
 def contact_view(request):
