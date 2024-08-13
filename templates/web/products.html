@@ -1,0 +1,343 @@
+{% extends 'web/common/base.html' %}
+{% load static %}
+{% block content %}
+<main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" style="background-image: url({% static 'assets/img/hero-carousel/hero-carousel-6.jpg' %});">
+      <div class="container position-relative">
+        <h1>Products</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Products</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Products</h2>
+          <p>
+            High-Quality Materials and Equipment for Every Construction Need
+          </p>
+        </div>
+        <!-- End Section Title -->
+  
+        <div class="container">
+          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".pumps">Pumps</li>
+              <li data-filter=".marine-accessories">Marine-Accessories </li>
+              <li data-filter=".hvac-equipment-accessories">HVAC Equipment-Accessories</li>
+              <li data-filter=".filter-design">Design</li>
+            </ul>
+            <!-- End Portfolio Filters -->
+  
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item pumps">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/wilden-pumps-1.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>App 1</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/remodeling-1.jpg' %}" title="App 1" data-gallery="portfolio-gallery-app"
+                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item marine-accessories">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/marine-accessories-1.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Product 1</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/construction-1.jpg' %}" title="Product 1"
+                      data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item hvac-equipment-accessories">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/hvac-equipment-accessories-1.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Branding 1</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/repairs-1.jpg' %}" title="Branding 1"
+                      data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/design-1.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Books 1</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/design-1.jpg' %}" title="Branding 1" data-gallery="portfolio-gallery-book"
+                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item pumps">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/wilden-pumps 2.png' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>App 2</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/wilden-pumps 2.png' %}" title="App 2" data-gallery="portfolio-gallery-app"
+                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item marine-accessories">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/marine-accessories-2.png' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Product 2</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/construction-2.jpg' %}" title="Product 2"
+                      data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item hvac-equipment-accessories">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/hvac-equipment-accessories-2.webp' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Branding 2</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/repairs-2.jpg' %}" title="Branding 2"
+                      data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/design-2.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Books 2</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/design-2.jpg' %}" title="Branding 2" data-gallery="portfolio-gallery-book"
+                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item pumps">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/wilden-pumps-3.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>App 3</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/remodeling-3.jpg' %}" title="App 3" data-gallery="portfolio-gallery-app"
+                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item marine-accessories">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/marine-accessories-3.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Product 3</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/construction-3.jpg' %}" title="Product 3"
+                      data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item hvac-equipment-accessories">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/hvac-equipment-accessories-3.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Branding 3</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/repairs-3.jpg' %}" title="Branding 2"
+                      data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item hvac-equipment-accessories">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/hvac-equipment-accessories-4.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Branding 3</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/repairs-3.jpg' %}" title="Branding 2"
+                      data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                        class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+  
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+                <div class="portfolio-content h-100">
+                  <img src="{% static 'assets/img/projects/design-3.jpg' %}" class="img-fluid" alt="" />
+                  <div class="portfolio-info">
+                    <h4>Books 3</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                    <a href="{% static 'assets/img/projects/design-3.jpg' %}" title="Branding 3" data-gallery="portfolio-gallery-book"
+                      class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="project-details.html" title="More Details" class="details-link"><i
+                        class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- /Projects Section -->
+    <!-- Brands Section -->
+    <section id="testimonials" class="testimonials section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Brands</h2>
+        <p>Partnering with Industry-Leading Brands for Superior Quality̦</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                  <h3>Caterpillar</h3>
+                  <!-- <h4>Ceo &amp; Founder</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                      Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p> -->
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                  <h3>Wilden</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                  <h3>Falcon</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                  <h3>Fleetguard</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- Brands Section -->
+
+  </main>
+{% endblock %}

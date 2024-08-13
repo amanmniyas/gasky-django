@@ -1,0 +1,730 @@
+{% extends 'web/common/base.html' %}
+{% load static %}
+{% block content %}
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <div class="info d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 text-center">
+              <h2>Welcome to Gasky</h2>
+              <p>
+                We are dedicated to transforming visions into reality with our
+                comprehensive construction and trading services. Whether
+                you're starting a new building project from the ground up,
+                managing existing facilities, or in need of top-notch
+                construction equipment, we have you covered.
+              </p>
+              <a href="#alt-services" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-item">
+          <img src="{% static 'assets/img/hero-carousel/hero-carousel-1.jpg' %}" alt="" />
+        </div>
+
+        <div class="carousel-item active">
+          <img src="{% static 'assets/img/hero-carousel/hero-carousel-2.jpg' %}" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'assets/img/hero-carousel/hero-carousel-3.jpg' %}" alt="" />
+        </div>
+
+        <div class="carousel-item">
+          <img src="{% static 'assets/img/hero-carousel/hero-carousel-4.jpg' %}" alt="" />
+        </div>
+
+        <div class="carousel-item">
+          <img src="{% static 'assets/img/hero-carousel/hero-carousel-5.jpg' %}" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="{% static 'assets/img/hero-carousel/hero-carousel-6.jpg' %}" alt="" />
+        </div>
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- Alt Services Section -->
+    <section id="alt-services" class="alt-services section">
+      <div class="container">
+        <div class="row justify-content-around gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="{% static 'assets/img/hero-carousel/hero-carousel-5.jpg' %}" alt="" />
+          </div>
+
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <h3>Who we are?</h3>
+            <p>
+              Founded in 2010, Gasky is one of the leading & most efficient company serving the
+              needs of Oil & Gas Industry in GCC region.
+            </p>
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-alarm flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">On-Time Completion</a></h4>
+                <p>
+                  We pride ourselves on delivering projects on schedule, ensuring that your deadlines are met without
+                  compromising quality.
+                </p>
+              </div>
+            </div>
+            <!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-truck flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Fastest Delivery</a></h4>
+                <p>
+                  Our streamlined processes and extensive resources allow us to provide the fastest delivery of
+                  materials and machinery.
+                </p>
+              </div>
+            </div>
+            <!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-shield-check flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Unmatched Quality</a></h4>
+                <p>
+                  We guarantee the highest standards of quality in every aspect of our work, from construction to
+                  facility management.
+                </p>
+              </div>
+            </div>
+            <!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
+              <i class="bi bi-lightning-charge flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Efficient Solutions</a></h4>
+                <p>
+                  Our expert team provides efficient solutions tailored to your needs, ensuring that every project is
+                  handled with precision and care.
+                </p>
+              </div>
+            </div>
+            <!-- End Icon Box -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Alt Services Section -->
+
+    <!-- Constructions Section -->
+    <section id="constructions" class="constructions section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Constructions</h2>
+        <p>
+          Delivering top-quality residential, commercial, and infrastructure
+          construction solutions.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg">
+                    <img src="{% static 'assets/img/residential.jpg' %}" alt="" />
+                  </div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Residential Construction</h4>
+                    <p>
+                      We transform your dream home into reality. Our
+                      residential construction services cover everything from
+                      custom single-family homes to multi-unit developments.
+                      We prioritize quality craftsmanship, energy efficiency,
+                      and timely project completion to ensure your utmost
+                      satisfaction.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg">
+                    <img src="{% static 'assets/img/office.jpg' %}" alt="" />
+                  </div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">
+                      Commercial Building From office complexes to retail
+                      spaces
+                    </h4>
+                    <p>
+                      We excel in commercial construction. Our team manages
+                      projects of all scales, ensuring they meet stringent
+                      building codes, sustainability standards, and your
+                      specific business needs. We deliver functional,
+                      aesthetically pleasing spaces that stand the test of
+                      time.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg">
+                    <img src="{% static 'assets/img/constructions-3.jpg' %}" alt="" />
+                  </div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Infrastructure Development</h4>
+                    <p>
+                      We contribute to community growth through vital
+                      infrastructure projects. Our expertise spans road
+                      construction, bridge building, water treatment
+                      facilities, and more. We employ cutting-edge techniques
+                      and durable materials to create infrastructure that
+                      enhances public safety and facilitates economic
+                      development.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Card Item -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg">
+                    <img src="{% static 'assets/img/constructions-4.jpg' %}" alt="" />
+                  </div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Renovation and Restoration</h4>
+                    <p>
+                      Breathe new life into existing structures with our
+                      renovation and restoration services. Whether it's
+                      modernizing a commercial space, expanding a residential
+                      property, or preserving historical buildings, we combine
+                      respect for original architecture with modern building
+                      techniques to deliver outstanding results.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Card Item -->
+        </div>
+      </div>
+    </section>
+    <!-- /Constructions Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>
+          Explore our wide range of services designed to help you achieve your goals and exceed your expectations.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-building"></i>
+              </div>
+              <h3>Facility Management</h3>
+              <p>
+                Our facility management services ensure that your buildings
+                and infrastructure are maintained to the highest standards,
+                providing a safe and efficient environment.
+              </p>
+              <a href="services.html" class="readmore stretched-link">
+                Read more <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-tools"></i>
+              </div>
+              <h3>Building Maintenance</h3>
+              <p>
+                We offer comprehensive building maintenance services to keep
+                your properties in excellent condition, ensuring longevity and
+                functionality.
+              </p>
+              <a href="services.html" class="readmore stretched-link">
+                Read more <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-hammer"></i>
+              </div>
+              <h3>Construction </h3>
+              <p>
+                From initial planning and design to the final touches, our
+                end-to-end construction services cover every aspect of your
+                project, ensuring quality and efficiency.
+              </p>
+              <a href="services.html" class="readmore stretched-link">
+                Read more <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa-solid fa-truck-monster"></i>
+              </div>
+              <h3>Rental of Heavy Equipment</h3>
+              <p>
+                We provide a wide range of heavy equipment for rent, ensuring
+                that you have the right tools and machinery for your
+                construction and maintenance projects.
+              </p>
+              <a href="services.html" class="readmore stretched-link">
+                Read more <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- End Service Item -->
+        </div>
+      </div>
+    </section>
+    <!-- /Services Section -->
+
+    <!-- Brands Section -->
+    <section id="testimonials" class="testimonials section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Brands</h2>
+        <p>Partnering with Industry-Leading Brands for Superior Quality̦</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                  <h3>Caterpillar</h3>
+                  <!-- <h4>Ceo &amp; Founder</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                      Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p> -->
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                  <h3>Wilden</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                  <h3>Falcon</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="{% static 'assets/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
+                  <h3>Fleetguard</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- Brands Section -->
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section light-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Products</h2>
+        <p>
+          High-Quality Materials and Equipment for Every Construction Need
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".pumps">Pumps</li>
+            <li data-filter=".marine-accessories">Marine-Accessories </li>
+            <li data-filter=".hvac-equipment-accessories">HVAC Equipment-Accessories</li>
+            <li data-filter=".filter-design">Design</li>
+          </ul>
+          <!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item pumps">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/wilden-pumps-1.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/remodeling-1.jpg' %}" title="App 1" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item marine-accessories">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/marine-accessories-1.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/construction-1.jpg' %}" title="Product 1"
+                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item hvac-equipment-accessories">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/hvac-equipment-accessories-1.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Branding 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/repairs-1.jpg' %}" title="Branding 1"
+                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/design-1.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/design-1.jpg' %}" title="Branding 1" data-gallery="portfolio-gallery-book"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item pumps">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/wilden-pumps 2.png' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>App 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/wilden-pumps 2.png' %}" title="App 2" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item marine-accessories">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/marine-accessories-2.png' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Product 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/construction-2.jpg' %}" title="Product 2"
+                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item hvac-equipment-accessories">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/hvac-equipment-accessories-2.webp' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Branding 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/repairs-2.jpg' %}" title="Branding 2"
+                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/design-2.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Books 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/design-2.jpg' %}" title="Branding 2" data-gallery="portfolio-gallery-book"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item pumps">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/wilden-pumps-3.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/remodeling-3.jpg' %}" title="App 3" data-gallery="portfolio-gallery-app"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item marine-accessories">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/marine-accessories-3.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Product 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/construction-3.jpg' %}" title="Product 3"
+                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item hvac-equipment-accessories">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/hvac-equipment-accessories-3.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/repairs-3.jpg' %}" title="Branding 2"
+                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item hvac-equipment-accessories">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/hvac-equipment-accessories-4.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/repairs-3.jpg' %}" title="Branding 2"
+                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'assets/img/projects/design-3.jpg' %}" class="img-fluid" alt="" />
+                <div class="portfolio-info">
+                  <h4>Books 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="{% static 'assets/img/projects/design-3.jpg' %}" title="Branding 3" data-gallery="portfolio-gallery-book"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i
+                      class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+          </div>
+          <!-- End Portfolio Container -->
+        </div>
+      </div>
+    </section>
+    <!-- /Projects Section -->
+  </main>
+
+  <!-- Get Started Section -->
+  <section id="get-started" class="get-started section">
+    <div class="container">
+      <div class="row justify-content-between gy-4">
+        <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+          <div class="content">
+            <h3>Have a question or need assistance? We're here to help.</h3>
+            <p>
+              Send us a message, and our team at Gasky Construction will get
+              back to you promptly. Whether you're planning a new build,
+              require facility management services, or need expert advice,
+              we're ready to discuss your needs and provide tailored
+              solutions.
+            </p>
+            <p>
+              We value open communication and believe in building strong
+              relationships with our clients, you can trust us to deliver
+              results that exceed your expectations.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+          <form action="forms/quote.php" method="post" class="email-form">
+            <h3>Get a quote</h3>
+            <p>
+              Your satisfaction is our priority. Reach out today, and let's
+              build something great together.
+            </p>
+            <div class="row gy-3">
+              <div class="col-12">
+                <input type="text" name="name" class="form-control" placeholder="Name" required="" />
+              </div>
+
+              <div class="col-12">
+                <input type="email" class="form-control" name="email" placeholder="Email" required="" />
+              </div>
+
+              <div class="col-12">
+                <input type="text" class="form-control" name="phone" placeholder="Phone" required="" />
+              </div>
+
+              <div class="col-12">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+              </div>
+
+              <div class="col-12 text-center">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Your quote request has been sent successfully. Thank you!
+                </div>
+
+                <button type="submit">Get a quote</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- End Quote Form -->
+      </div>
+    </div>
+  </section>
+  {% endblock %}
